@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.ab-container {
+    min-height: 100vh;
+    background-color: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+    color: #111827;
+}
+
+/* Navbar */
+.ab-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 64px;
+    background: white;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.ab-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ab-logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ab-brand-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #111827;
+}
+
+.ab-back-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ab-back-btn:hover {
+    background-color: #F3F4F6;
+}
+
+.ab-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.ab-profile-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.ab-content {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 60px 20px 80px 20px;
+}
+
+
+.ab-header {
+    margin-bottom: 40px;
+}
+
+.ab-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ab-subtitle {
+    font-size: 18px;
+    color: #6B7280;
+    margin-top: 6px;
+}
+
+
+.ab-accounts {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.account-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 14px;
+    padding: 24px 28px;
+    transition: box-shadow 0.2s ease;
+}
+
+.account-card:hover {
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* LEFT SIDE */
+.account-left {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.account-icon {
+    background-color: #E0F2FE;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.account-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.account-info p {
+    margin: 3px 0;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+/* RIGHT SIDE */
+.account-right {
+    text-align: right;
+}
+
+.account-balance {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.account-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.account-actions button {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.deposit-btn {
+    background: #E6F4EA;
+    color: #15803D;
+}
+
+.withdraw-btn {
+    background: #FEE2E2;
+    color: #B91C1C;
+}
+
+.deposit-btn:hover { background: #D1FAE5; }
+.withdraw-btn:hover { background: #FECACA; }
+
+
+.total-balance-card {
+    margin-top: 40px;
+    background: #EFF6FF;
+    padding: 22px 28px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1D4ED8;
+}
+
+
+.ab-footer {
+    text-align: center;
+    padding: 24px;
+    color: #9CA3AF;
+    font-size: 12px;
+}

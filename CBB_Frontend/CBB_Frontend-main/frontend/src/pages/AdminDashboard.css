@@ -1,0 +1,110 @@
+/* AdminDashboard.css */
+/* Reusing common dashboard layout from UserDashboard.css */
+.dashboard-container {
+    min-height: 100vh;
+    background-color: #F8F9FD;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header (Shared) */
+.dashboard-header {
+    background: #FFFFFF;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAECF0;
+}
+
+.header-icon.admin-icon {
+    background: #7F56D9;
+    /* Purple for Admin */
+}
+
+/* Stats Row */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.stat-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #5F6D7E;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.stat-value-box {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    min-width: 100px;
+}
+
+/* Action Rows */
+.actions-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* Uses .action-card from UserDashboard.css equivalent styles */
+.admin-action-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 32px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.admin-action-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-color: #7F56D9;
+}
+
+.admin-card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4EBFF;
+    /* Light Purple */
+    color: #7F56D9;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .actions-row {
+        grid-template-columns: 1fr;
+    }
+}

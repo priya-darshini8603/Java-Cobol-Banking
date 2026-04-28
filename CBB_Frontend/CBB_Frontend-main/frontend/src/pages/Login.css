@@ -1,0 +1,169 @@
+/* PAGE */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* WRAPPER */
+.login-wrapper {
+  width: 900px;
+  max-width: 95%;
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* BRAND */
+.brand {
+  flex: 1;
+  background: linear-gradient(135deg, #1e40af, #2563eb);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand h1 {
+  margin: 0;
+}
+
+/* CARD */
+.card {
+  flex: 1;
+  padding: 40px;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.subtitle {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+.input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  gap: 8px;
+}
+
+.input input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+/* EYE BUTTON */
+.eye {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* FORGOT PASSWORD */
+.forgot {
+  font-size: 13px;
+  color: #2563eb;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+/* ERROR BOX */
+.error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* MAIN BUTTON */
+.btn {
+  width: 100%;
+  padding: 11px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #1e40af;
+}
+
+/* OTP SECTION */
+.otp {
+  margin-top: 20px;
+}
+
+.otp input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+
+.register-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #16a34a;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.register-btn:hover {
+  background: #15803d;
+}
+
+/* FOOTER LINK */
+.login-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-footer p {
+  color: #555;
+  margin: 0;
+}
+
+.login-footer span {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.login-footer span:hover {
+  text-decoration: underline;
+}

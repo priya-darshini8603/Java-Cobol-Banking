@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1770700576623_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1770700576745_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.dltk.ui.ScriptWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1770700822119_3" label="Cbb_backend" name="Cbb_backend">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/modernize" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/modernize" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/modernize" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1770700596859_2" label="Window Working Set" name="Aggregate for window 1770700596858"/>
+<mruList name="Cbb_backend"/>
+</workingSetManager>

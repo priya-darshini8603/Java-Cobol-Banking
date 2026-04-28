@@ -1,0 +1,170 @@
+/* ===== GLOBAL ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.dw-container {
+    min-height: 100vh;
+    background-color: #F5F7FA;
+    font-family: 'Inter', sans-serif;
+    color: #111827;
+}
+
+
+/* ===== NAVBAR ===== */
+.dw-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+    height: 72px;
+    background: white;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.dw-nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dw-logo-box {
+    width: 40px;
+    height: 40px;
+    background: #2563EB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dw-brand-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.dw-back-btn {
+    padding: 8px 16px;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+}
+
+.dw-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.profile-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ===== DESKTOP CONTENT LAYOUT ===== */
+.dw-content {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    gap: 60px;
+    padding: 60px 80px;
+}
+
+
+/* ===== FORM CARD ===== */
+.dw-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #E5E7EB;
+}
+
+
+/* ===== TITLES ===== */
+.dw-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.dw-subtitle {
+    font-size: 14px;
+    color: #6B7280;
+    margin-bottom: 24px;
+}
+
+
+/* ===== PROGRESS ===== */
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: #E5E7EB;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.progress-bar.filled {
+    height: 100%;
+    width: 50%;
+    background: #111827;
+    border-radius: 4px;
+}
+
+
+/* ===== FORM ===== */
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.dw-input,
+.dw-select {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background: #F9FAFB;
+}
+
+
+/* ===== ACTIONS ===== */
+.dw-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.dw-btn-outline {
+    padding: 12px 22px;
+    border: 1px solid #D1D5DB;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dw-btn-primary {
+    padding: 12px 22px;
+    background: #111827;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ===== RIGHT INFO PANEL ===== */
+.dw-security-box {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #374151;
+}
